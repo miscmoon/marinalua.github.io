@@ -15,7 +15,7 @@
     display: inline-block;
     padding: $padding-v $padding-h;
     border: solid $border-color;
-    border-radius: $border-radius;
+    border-radius: none;
     border-width: 1px;
     width: 60%;
     max-width: $sidebar-width;
