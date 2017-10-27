@@ -50,8 +50,9 @@ a {
 img {
   display: block;
   max-width: 100%;
+  border: 1px solid #000;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 0px;
   height: auto; // Fix to keep max-width from squishing images with defined
                 // height in HTML
 }
