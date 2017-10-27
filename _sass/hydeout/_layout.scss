@@ -25,10 +25,10 @@
 body {
   color: rgba(255,255,255,.75);
   background-color: $sidebar-bg-color;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     lighten($sidebar-bg-color, 7%),
-    darken($sidebar-bg-color, 7%));
+    darken($sidebar-bg-color, 7%)); */
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -40,7 +40,7 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: "Abril Fatface", serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
     font-size: $large-font-size;
     color: rgba(255,255,255,.75);
