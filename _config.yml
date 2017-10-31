@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            miscmoon
+title:            marinalua
 tagline:          '/text'
 description:      'Explorations through text'
 url:              https://marinalua.github.io/
