@@ -1,1 +1,0 @@
-Akkurat Mono
