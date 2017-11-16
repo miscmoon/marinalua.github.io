@@ -2,6 +2,12 @@
 //
 // Headings, body text, lists, and other misc typographic elements.
 
+@font-face {
+    font-family: 'AkkuratRegular';
+    src: url('/fonts/akkurat/akkurat.eot');
+    src: url('/fonts/akkurat/akkurat.eot') format('embedded-opentype'), url('/fonts/akkurat/akkurat.woff') format('woff'), url('/fonts/akkurat/akkurat.ttf') format('truetype'), url('/fonts/akkurat/akkurat.svg#AkkuratRegular') format('svg');
+}
+
 h1, h2, h3, h4, h5, h6, .site-title {
   margin-bottom: $heading-spacing;
   font-weight: 600;
