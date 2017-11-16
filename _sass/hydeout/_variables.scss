@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'AkkuratRegular';
+    src: url('akkurat.eot');
+    src: url('akkurat.eot') format('embedded-opentype'), url('akkurat.woff') format('woff'), url('akkurat.ttf') format('truetype'), url('akkurat.svg#AkkuratRegular') format('svg');
+}
+
 $gray-1: #f9f9f9 !default;
 $gray-2: #e5e5e5 !default;
 $gray-3: #ccc !default;
