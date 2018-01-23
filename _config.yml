@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            marinalua
+title:            miscmoon
 tagline:          '/text'
 description:      'Explorations through text'
-url:              https://marinalua.github.io/
+url:              https://miscmoon.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
