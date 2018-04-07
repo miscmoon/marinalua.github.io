@@ -8,6 +8,12 @@
     src: url('/fonts/akkurat/akkurat.eot') format('embedded-opentype'), url('/fonts/akkurat/akkurat.woff') format('woff'), url('/fonts/akkurat/akkurat.ttf') format('truetype'), url('/fonts/akkurat/akkurat.svg#AkkuratRegular') format('svg');
 }
 
+@font-face {
+    font-family: 'AkkuratMono';
+    src: url('/fonts/akkurat-mono/akkurat-mono.eot');
+    src: url('/fonts/akkurat/akkurat-mono.eot') format('embedded-opentype'), url('/fonts/akkurat/akkurat-mono.woff') format('woff'), url('/fonts/akkurat/akkurat-mono.ttf') format('truetype'), url('/fonts/akkurat/akkurat-mono.svg#AkkuratRegular') format('svg');
+}
+
 h1, h2, h3, h4, h5, h6, .site-title {
   margin-bottom: $heading-spacing;
   font-weight: 600;
