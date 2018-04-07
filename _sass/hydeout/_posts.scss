@@ -3,6 +3,12 @@
 // Each post is wrapped in `.post` and is used on default and post layouts. Each
 // page is wrapped in `.page` and is only used on the page layout.
 
+@font-face {
+    font-family: 'AkkuratMono';
+    src: url('/fonts/akkurat-mono/akkurat-mono.eot');
+    src: url('/fonts/akkurat/akkurat-mono.eot') format('embedded-opentype'), url('/fonts/akkurat/akkurat-mono.woff') format('woff'), url('/fonts/akkurat/akkurat-mono.ttf') format('truetype'), url('/fonts/akkurat/akkurat-mono.svg#AkkuratRegular') format('svg');
+}
+
 article + *, .post-body ~ section {
   padding-top: $section-spacing;
   border-top: 1px solid $border-color;
@@ -39,7 +45,7 @@ h2.post-title, h2.page-title {
 
 // Meta data line below post title
 .post-meta {
-  font-face: "Courier New", "Monaco";
+  font-face: 'AkkuratMono', "Courier New", monospace;
   font-size: 1rem;
   margin-top: -.5rem;
   margin-bottom: 1rem;
